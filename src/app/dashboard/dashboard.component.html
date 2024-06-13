@@ -1,0 +1,67 @@
+<div id="sidebar" >
+    <div style="display: flex; align-items: center; color: green;">
+    <p>Solar  Dashboard</p>
+    <p></p>
+    <span style="margin: 0 10px;">|</span>
+    <p>powered by shell Global</p>
+    
+    </div>
+    <div class="navbar">
+        <div class="link-container">
+        <a routerLink="/dashboard" class="btn btn-light my-button">Dashboard</a>
+        <a routerLink="/profile-settings" class="btn btn-light my-button">Profile Settings</a>
+        <a routerLink="/logout" class="btn btn-light my-button">Logout</a>
+        
+        </div>
+    </div>
+    </div>
+
+ <div>
+    <div class="main">
+        <div class="user-name">
+           <h2 style="font-family: 'Arial', sans-serif; font-weight: bold; ">Welcome</h2>
+           <p style="font-family: 'Verdana', sans-serif; font-size: 30px; font-weight: bold; font-style: italic;">Bhakti Takane</p>
+       </div>
+    
+     
+    <div class="MO" style="background-color: white; display: flex; justify-content: space-between; width:60%;">
+        <div class="month_overview">
+        <div style="padding:10px;text-align: center;" >
+            <h3>Monthly</h3>
+            <h3><p>Overview</p></h3>
+            <p>(in kw)</p>
+        </div>
+            <!-- Replace with actual value -->
+        </div> 
+        <div >
+            <h2>Energy Consumption</h2>
+            <p style="font-size: 30px; text-align: center;">Value here</p> <!-- Replace with actual value -->
+        </div>
+        <div>
+            <h2>Energy Generation</h2>
+            <p style="font-size: 30px;text-align:center;">Value here</p> <!-- Replace with actual value -->
+        </div>
+    </div>
+    <div style="padding-top: 90px; margin-left: 5%;width:85%; height:85%;">
+    <div class="" style="background-color: white; display: flex; justify-content: space-between; width:90%; height:90%;">
+        
+        <div style="width:60%;">
+            <h5 style="padding-left: 9px;padding-top:9px;font-family: 'Arial', sans-serif; font-weight: bold; ">Solar Generation & Consumption</h5>
+            <div>
+                <highcharts-chart 
+                [Highcharts]="Highcharts"
+                [options]="barChartOptions"
+                style="width: 100%; height: 400px; display: block;">
+                </highcharts-chart>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    </div>
+</div>
+
+
+    <router-outlet></router-outlet>
+
+  

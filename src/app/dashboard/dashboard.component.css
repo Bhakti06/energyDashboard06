@@ -1,0 +1,68 @@
+body {
+    margin-left: 250px;
+    background-color: grey; /* Adjust this value to match the width of your sidebar */
+}
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+   
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .link-container a {
+    display: block;
+    margin: 10px 0;
+}
+
+  .my-button:hover {
+    background-color: orange;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh; 
+}
+.main {
+    margin-left: 250px; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: lightgray;
+    padding: 20px;
+   
+  }
+  .user-name{
+    margin-top:2%;
+  }
+  .MO {
+    margin-left: 38%; 
+    width: 85%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:20px;
+    margin-top:2%;
+  }
+  .month_overview{
+    width: 20%;
+    background-color: rgba(253, 201, 168, 0.943);
+  }
+  
+
+  
+  
+  
