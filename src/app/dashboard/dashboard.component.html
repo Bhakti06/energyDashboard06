@@ -10,7 +10,7 @@
         <div class="link-container">
         <a routerLink="/dashboard" class="btn btn-light my-button">Dashboard</a>
         <a routerLink="/profile-settings" class="btn btn-light my-button">Profile Settings</a>
-        <a routerLink="/logout" class="btn btn-light my-button">Logout</a>
+        <a routerLink="" class="btn btn-light my-button">Logout</a>
         
         </div>
     </div>
@@ -35,11 +35,11 @@
         </div> 
         <div >
             <h2>Energy Consumption</h2>
-            <p style="font-size: 30px; text-align: center;">Value here</p> <!-- Replace with actual value -->
+            <p style="font-size: 30px; font-weight:bold; text-align: center;">139.5</p> <!-- Replace with actual value -->
         </div>
         <div>
             <h2>Energy Generation</h2>
-            <p style="font-size: 30px;text-align:center;">Value here</p> <!-- Replace with actual value -->
+            <p style="font-size: 30px;font-weight:bold;text-align:center;">86.6</p> <!-- Replace with actual value -->
         </div>
     </div>
     <div style="padding-top: 90px; margin-left: 5%;width:85%; height:85%;">
@@ -55,6 +55,47 @@
                 </highcharts-chart>
             </div>
         </div>
+        <div style="width:40%">
+            <h5 style="padding-top:25px;padding-left:5%;font-family: 'Arial', sans-serif; font-weight: bold; text-align:center;">Current Week</h5>
+            <h5 style="padding-top:25px;padding-left:5%;">Energy Generation</h5>
+            <p style="font-size: 40px; font-weight:bold;">913.50 kwh</p>
+            <h5 style="padding-top:60px;padding-left:15px;">Energy Consumption</h5>
+            <p style="font-size: 40px; font-weight:bold;">568.60 kwh</p> <!-- Replace with actual value -->
+         <!-- Replace with actual value -->
+        </div>
+
+        <div style="width:40%;padding-top:5%;">
+           <div style="background-color: lightskyblue;width:70%;height: 30%;font-style: italic;">
+            <h6 style="text-align: center;padding-top:5px;">Daily(kw)</h6>
+            <div class="" style=" padding-left:40px;display: flex; justify-content: space-between; width:80%;">
+                <div >
+                    <p style="font-size: 30px; font-weight:bold; text-align: center;">4.4</p>
+                    <h6>Min </h6>
+                     <!-- Replace with actual value -->
+                </div>
+                <div>
+                    <p style="font-size: 30px; font-weight:bold; text-align: center;">4.6</p>
+                    <h6>Max </h6>
+                </div>
+            </div>
+
+          </div>
+
+          <div style="background-color: lightskyblue;width:70%;height: 30%;font-style: italic;margin-top:20%">
+            <h6 style="text-align: center;padding-top:5px;">Daily(kw)</h6>
+            <div class="" style=" padding-left:40px;display: flex; justify-content: space-between; width:80%;">
+                <div >
+                    <p style="font-size: 30px; font-weight:bold; text-align: center;">2.7</p>
+                    <h6>Min </h6>
+                     <!-- Replace with actual value -->
+                </div>
+                <div>
+                    <p style="font-size: 30px; font-weight:bold; text-align: center;">2.9</p>
+                    <h6>Max </h6>
+                </div>
+            </div>
+
+          </div>
         
     </div>
     </div>

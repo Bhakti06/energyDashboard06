@@ -19,14 +19,22 @@ export class DashboardComponent {
       data: [7, 18, 16, 14, 10,6,21], // replace with your data
       type: 'line'
     }],
+    xAxis: {
+      categories: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      title: {
+        text: 'Days'
+      }
+    },
     title: {
       text: 'My chart'
     },
+   
     plotOptions: {
       line: {
         linecap: 'round'
       }
-    }
+    },
+    
   };
 
   constructor() { }
